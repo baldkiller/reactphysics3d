@@ -286,6 +286,8 @@ endif()
 if(RP3D_GENERATE_DOCUMENTATION)
    add_subdirectory(documentation/)
 endif()
+	
+   #add_subdirectory(helloworld/)
 
 # Enable profiling if necessary
 if(RP3D_PROFILING_ENABLED)
